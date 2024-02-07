@@ -1,0 +1,114 @@
+.calendar {
+  padding: 40px 155px 40px 155px;
+}
+
+.header {
+  display: flex;
+  font-size: 32px;
+  justify-content: space-between;
+}
+
+.header button {
+  background-color: transparent;
+  border: none;
+  color: black;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.line-separator {
+  border-top: 1px solid black;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.days {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.day-row {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.day {
+  width: 130px;
+  height: 130px;
+  display: flex;
+  justify-content: right;
+  border: 1px solid #ddd;
+  padding-right: 5px;
+  padding-top: 5px;
+  font-weight: 600;
+  box-shadow: 2px 3px 8px 1px lightgrey;
+  cursor: pointer;
+}
+.empty-cell {
+  width: 130px;
+  padding-right: 5px;
+}
+
+.day-name {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.largeImageContainer {
+  width: 100%;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.day .circle {
+  width: 30px;
+  height: 30px;
+  background-color: #1354ed;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: bold;
+}
+.summary {
+  width: 45%;
+
+  padding-top: 75px;
+}
+
+.avail-date {
+  width: 45%;
+
+  padding-top: 20px;
+}
+.pd-left-60 {
+  padding-left: 60px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+button {
+  height: 35px;
+  border-radius: 18px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  padding: 10px;
+}
+.learn-more-btn {
+  background: #24a0ed;
+  margin-right: 10px;
+}
+
+.preorder-btn {
+  background: orange;
+}
